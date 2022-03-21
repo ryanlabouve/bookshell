@@ -11,6 +11,7 @@ import (
 type Noop struct{}
 
 func main() {
+	bookshell.Load()
 	e := echo.New()
 
 	// Middleware
